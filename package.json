@@ -1,0 +1,25 @@
+{
+  "name": "simple-node-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@kurly/prettier-config": "^0.0.0",
+    "@types/lodash": "^4.14.197",
+    "@types/node": "^20.5.7",
+    "prettier": "^3.0.2"
+  },
+  "prettier": "@kurly/prettier-config"
+}
